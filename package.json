@@ -29,17 +29,19 @@
         "check": "run-p check:*",
         "check:format": "prettier . --check",
         "check:lint": "eslint",
+        "check:test": "vitest run",
         "check:types": "tsc",
-        "dev": "vite --open",
+        "dev": "run-p dev:*",
+        "dev:server": "vite --open",
+        "dev:test": "vitest dev",
         "fix": "run-s fix:*",
         "fix:format": "prettier . --write",
         "fix:lint": "eslint --fix",
         "fix:types": "ts-fix",
         "nvm": "nvm-auto",
+        "prepare": "husky",
         "preview": "vite preview --open",
-        "test": "vitest run",
-        "update": "npm-check-updates -i",
-        "prepare": "husky"
+        "update": "npm-check-updates -i"
     },
     "type": "module",
     "version": "1.0.0"
