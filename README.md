@@ -6,24 +6,24 @@ A full-on batteries included template to get you started.
 
 wThis boiler plate includes:
 
--   TypeScript (static analysis)
--   Vite (build system)
--   Vitest (test framework)
--   Eslint (rule based linter)
--   Prettier (formatter)
--   Husky (pre-commit manager)
--   Nvm (node version manager)
--   GitHub actions (continuos integration and delivery)
--   Other utility functions (npm-run-all, nvm-auto, npm-check-updates, webhints, ts-fix)
+- TypeScript (static analysis)
+- Vite (build system)
+- Vitest (test framework)
+- Eslint (rule based linter)
+- Prettier (formatter)
+- Husky (pre-commit manager)
+- Nvm (node version manager)
+- GitHub actions (continuos integration and delivery)
+- Other utility functions (npm-run-all, nvm-auto, npm-check-updates, webhints, ts-fix)
 
 ## NPM Scripts
 
 In addition to standard Vite commands like `npm run build` and `npm run preview`
 
--   `npm run dev` launch the development server and test runner\*
--   `npm run check` check for types, lint, formatting and test problems
--   `npm run fix` run lint, types and format auto-fixers
--   `npm run update` launch the interactive CLI to update dependencies
+- `npm run dev` launch the development server and test runner\*
+- `npm run check` check for types, lint, formatting and test problems
+- `npm run fix` run lint, types and format auto-fixers
+- `npm run update` launch the interactive CLI to update dependencies
 
 The original Vite dev server can be launched with `npm run dev:server`
 
